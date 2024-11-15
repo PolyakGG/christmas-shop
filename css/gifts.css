@@ -1,0 +1,967 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+width: 1440px;
+margin: 0 auto; /* Центрирование страницы */
+}
+h1 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+html {
+scroll-behavior: smooth;
+}
+
+
+.GiftsW1440 {
+display: flex;
+width: 1440px;
+flex-direction: column;
+align-items: center;
+background: var(--Static-White, #FFF);
+}
+/* Header */
+.Header {
+width: 1440px;
+height: 64px;
+display: flex;
+padding: var(--Space-0, 0px) var(--Space-8, 8px);
+flex-direction: column;
+align-items: center;
+gap: var(--Space-0, 0px);
+align-self: stretch;
+background: #FFF;
+justify-content: flex-start;
+}
+
+.Container {
+width: 100%;
+height: 64px;
+display: flex;
+max-width: 1276px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+align-self: stretch;
+background: #FFF;
+padding-top: 12px;
+padding-bottom: 12px;
+margin: 0 auto;
+}
+
+.Logo {
+display: flex;
+padding: var(--Space-8, 8px) var(--Space-20, 20px);
+align-items: center;
+gap: var(--Space-8, 8px);
+border-radius: 12px;
+}
+.LogoImage {
+width: 24px;
+height: 24px;
+}
+.LogoText { /*the gifts */
+color: var(--Dark, #181C29);
+font-family: Montserrat,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.HeaderContainer {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: var(--Space-8, 8px);
+flex: 1;
+}
+.HeaderContainerItems {
+display: flex;
+padding: var(--Space-0, 0px);
+align-items: center;
+gap: var(--Space-8, 8px);
+justify-content: flex-start;
+}
+.HeaderContainerItem1 {
+display: flex;
+padding: var(--Space-12, 12px) var(--Space-20, 20px);
+justify-content: flex-end;
+align-items: center;
+gap: var(--Space-0, 0px);
+border-radius: 12px;
+background: var(--Primary-10, rgba(255, 70, 70, 0.10));
+}
+.HeaderContainerItem1Text { /* gifts */
+color: var(--Primary, #FF4646);
+font-family: Montserrat,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.HeaderContainerItem2 {
+display: flex;
+padding: var(--Space-12, 12px) var(--Space-20, 20px);
+justify-content: center;
+align-items: center;
+gap: var(--Space-0, 0px);
+border-radius: 12px;
+
+}
+.HeaderContainerItem2Text { /* about */
+color: var(--Dark, #181C29);
+font-family: Montserrat,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+ /* Gifts Section */
+.GiftsSection {
+width: 1440px;
+height: 1394px;
+display: flex;
+padding: 0 var(--Space-8, 8px) var(--Space-60, 60px) var(--Space-8, 8px);
+flex-direction: column;
+align-items: center;
+gap: var(--Space-20, 20px);
+align-self: stretch;
+border-radius: 20px;
+background: var(--Primary, #FF4646);
+}
+.GiftsBgBarland {
+width: 1440px;
+height: 200px;
+background: url(/christmas-shop/images/gifts_Section/bggarland.png)  50% / cover no-repeat;
+padding-top: 60px; /* Creates a 60px gap from the top */
+}
+
+.GiftsContainer1 {
+display: flex;
+max-width: 1276px;
+padding: var(--Space-0, 0px);
+flex-direction: column;
+align-items: center;
+gap: var(--Space-20, 20px);
+align-self: stretch;
+margin: auto;
+}
+
+.GiftsContainer1_1 {
+height: 144px;
+display: flex;
+max-width: 426px;
+padding: var(--Space-0, 0px);
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: var(--Space-12, 12px);
+}
+.GiftsContainer1_1_text { /* Achieve health, harmony, and inner strength */
+align-self: center;
+color: var(--Static-White, #FFF);
+text-align: center;
+font-family: Montserrat,sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 48px */
+letter-spacing: 5.76px;
+text-transform: uppercase;
+}
+
+.Tabs {
+width: 474px;
+height: 40px;
+display: flex;
+padding: var(--Space-0, 0px);
+align-items: center;
+gap: var(--Space-8, 8px);
+}
+.Tab1 {
+display: flex;
+padding: var(--Space-12, 12px) var(--Space-20, 20px);
+justify-content: center;
+align-items: center;
+gap: var(--Space-0, 0px);
+border-radius: 12px;
+background: var(--Static-White-20, rgba(255, 255, 255, 0.20));
+}
+.Tab1Text { /* All */
+color: var(--Static-White, #FFF);
+font-family: Montserrat,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.Tab2 {
+display: flex;
+padding: var(--Space-12, 12px) var(--Space-20, 20px);
+justify-content: center;
+align-items: center;
+gap: var(--Space-0, 0px);
+border-radius: 12px;
+}
+.Tab2Text { /* for work */
+color: var(--Static-White, #FFF);
+font-family: Montserrat,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+white-space: nowrap;
+}
+ /* Cards (shariki) */
+.ContainerCards {
+display: flex;
+padding: var(--Space-0, 0px);
+justify-content: center;
+align-items: flex-start;
+align-content: flex-start;
+gap: var(--Space-12, 12px);
+align-self: stretch;
+flex-wrap: wrap;
+}
+/* ContainerCards>Card>Card1ImageContainer>Card1Image
+   ContainerCards>Card>CardTextContainer>Card1Text1>Card1Text2*/
+.Card {
+display: flex;
+width: 310px;
+height: 342px;
+padding: var(--Space-0, 0px);
+flex-direction: column;
+align-items: center;
+gap: var(--Space-0, 0px);
+border-radius: 20px;
+background: var(--Content-Background, #ECF3F8);
+}
+.CardImageContainer {
+display: flex;
+width: 310px;
+height: 230px;
+padding: var(--Space-0, 0px);
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: var(--Space-0, 0px);
+flex-shrink: 0;
+}
+.Card1Image {
+width: 310px;
+ height: 230px;
+flex: 1 0 0;
+align-self: stretch;
+background: url(/christmas-shop/images/gifts_Section/image1.png)  50% / cover no-repeat;
+}
+.Card2Image {
+width: 310px;
+ height: 230px;
+flex: 1 0 0;
+align-self: stretch;
+background: url(/christmas-shop/images/gifts_Section/image2.png)  50% / cover no-repeat;
+}
+.Card3Image {
+width: 310px;
+ height: 230px;
+flex: 1 0 0;
+align-self: stretch;
+background: url(/christmas-shop/images/gifts_Section/image3.png)  50% / cover no-repeat;
+}
+.Card4Image {
+width: 310px;
+ height: 230px;
+flex: 1 0 0;
+align-self: stretch;
+background: url(/christmas-shop/images/gifts_Section/image3.png)  50% / cover no-repeat;
+}
+.Card5Image {
+width: 310px;
+ height: 230px;
+flex: 1 0 0;
+align-self: stretch;
+background: url(/christmas-shop/images/gifts_Section/image2.png)  50% / cover no-repeat;
+}
+.Card6Image {
+width: 310px;
+ height: 230px;
+flex: 1 0 0;
+align-self: stretch;
+background: url(/christmas-shop/images/gifts_Section/image4.png)  50% / cover no-repeat;
+}
+.Card7Image {
+width: 310px;
+ height: 230px;
+flex: 1 0 0;
+align-self: stretch;
+background: url(/christmas-shop/images/gifts_Section/image2.png)  50% / cover no-repeat;
+}
+.Card8Image {
+width: 310px;
+ height: 230px;
+flex: 1 0 0;
+align-self: stretch;
+background: url(/christmas-shop/images/gifts_Section/image4.png)  50% / cover no-repeat;
+}
+.Card9Image {
+width: 310px;
+ height: 230px;
+flex: 1 0 0;
+align-self: stretch;
+background: url(/christmas-shop/images/gifts_Section/image2.png)  50% / cover no-repeat;
+}
+.Card10Image {
+width: 310px;
+ height: 230px;
+flex: 1 0 0;
+align-self: stretch;
+background: url(/christmas-shop/images/gifts_Section/image1.png)  50% / cover no-repeat;
+}
+.Card11Image {
+width: 310px;
+ height: 230px;
+flex: 1 0 0;
+align-self: stretch;
+background: url(/christmas-shop/images/gifts_Section/image4.png)  50% / cover no-repeat;
+}
+.Card12Image {
+width: 310px;
+ height: 230px;
+flex: 1 0 0;
+align-self: stretch;
+background: url(/christmas-shop/images/gifts_Section/image4.png)  50% / cover no-repeat;
+}
+.CardTextContainer {
+display: flex;
+padding: var(--Space-20, 20px);
+flex-direction: column;
+align-items: flex-start;
+gap: var(--Space-8, 8px);
+flex: 1 0 0;
+align-self: stretch;
+border-radius: 20px;
+background: var(--Static-White, #FFF);
+}
+.Card1Text1 { /* For work */
+color: var(--Tag-Purple, #4361FF);
+font-family: Montserrat,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.Card1Text2 { /* Console.log Guru */
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+align-self: stretch;
+overflow: hidden;
+color: var(--Dark, #181C29);
+text-overflow: ellipsis;
+font-family: Montserrat, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+.Card2Text1{ /* For health */
+color: var(--Tag-Green, #06A44F);
+font-family: Montserrat,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.Card2Text2{ /* Step Master */
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+align-self: stretch;
+overflow: hidden;
+color: var(--Dark, #181C29);
+text-overflow: ellipsis;
+font-family: Montserrat,sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+.Card3Text1 { /* For work */
+color: var(--Tag-Purple, #4361FF);
+font-family: Montserrat, sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.Card3Text2 { /* Bug Magnet */
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+align-self: stretch;
+overflow: hidden;
+color: var(--Dark, #181C29);
+text-overflow: ellipsis;
+font-family: Montserrat,sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+.Card4Text1 { /* For work */
+color: var(--Tag-Purple, #4361FF);
+font-family: Montserrat, sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.Card4Text2 { /* Shortcut Cheater */
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+align-self: stretch;
+overflow: hidden;
+color: var(--Dark, #181C29);
+text-overflow: ellipsis;
+font-family: Montserrat, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+
+ /* 2 row Cards (5-8) include */
+.Card5Text1 { /* For health */
+color: var(--Tag-Green, #06A44F);
+
+/* Header 4 */
+font-family: Montserrat,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.Card5Text2 { /* Posture Levitation */
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+align-self: stretch;
+overflow: hidden;
+color: var(--Dark, #181C29);
+text-overflow: ellipsis;
+/* Header 3 */
+font-family: Montserrat,sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+.Card6Text1 { /* For harmony */
+color: var(--Tag-Pink, #FF43F7);
+
+/* Header 4 */
+font-family: Montserrat,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.Card6Text2 { /* Bug Acceptance Guru */
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+align-self: stretch;
+overflow: hidden;
+color: var(--Dark, #181C29);
+text-overflow: ellipsis;
+
+/* Header 3 */
+font-family: Montserrat,sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+.Card7Text1 { /* For health */
+color: var(--Tag-Green, #06A44F);
+
+/* Header 4 */
+font-family: Montserrat,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.Card7Text2 { /*Snack Resister */
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+align-self: stretch;
+overflow: hidden;
+color: var(--Dark, #181C29);
+text-overflow: ellipsis;
+
+/* Header 3 */
+font-family: Montserrat,sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+.Card8Text1 { /* For harmony */
+color: var(--Tag-Pink, #FF43F7);
+
+/* Header 4 */
+font-family: Montserrat, sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.Card8Text2 { /* Error Laugher */
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+align-self: stretch;
+overflow: hidden;
+color: var(--Dark, #181C29);
+text-overflow: ellipsis;
+
+/* Header 3 */
+font-family: Montserrat, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+ /* 3 row Cards (9-12) include */
+.Card9Text1 { /* For health */
+    color: var(--Tag-Green, #06A44F);
+    /* Header 4 */
+    font-family: Montserrat,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 15.6px */
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+.Card9Text2 { /*Hydration Bot */
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+align-self: stretch;
+overflow: hidden;
+color: var(--Dark, #181C29);
+text-overflow: ellipsis;
+
+/* Header 3 */
+font-family: Montserrat,sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+.Card10Text1 { /* For work */
+color: var(--Tag-Purple, #4361FF);
+
+/* Header 4 */
+font-family: Montserrat,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.Card10Text2 { /* Merge Master */
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+align-self: stretch;
+overflow: hidden;
+color: var(--Dark, #181C29);
+text-overflow: ellipsis;
+
+/* Header 3 */
+font-family: Montserrat,sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+.Card11Text1 { /* For harmony */
+color: var(--Tag-Pink, #FF43F7);
+
+/* Header 4 */
+font-family: Montserrat,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.Card11Text2 { /* Joy Charger */
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+align-self: stretch;
+overflow: hidden;
+color: var(--Dark, #181C29);
+text-overflow: ellipsis;
+
+/* Header 3 */
+font-family: Montserrat,sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+
+.Card12Text1 { /* For harmony */
+color: var(--Tag-Pink, #FF43F7);
+
+/* Header 4 */
+font-family: Montserrat,sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.Card12Text2 { /* Spontaneous Coding Philosopher */
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+align-self: stretch;
+overflow: hidden;
+color: var(--Dark, #181C29);
+text-overflow: ellipsis;
+
+/* Header 3 */
+font-family: Montserrat,sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+/* Footer SECTION */
+
+.Footer {
+width: 1440px;
+height: 496px;
+background: var(--Static-White, #FFF);
+display: flex;
+padding: var(--Space-60, 60px) var(--Space-8, 8px);
+flex-direction: column;
+align-items: center;
+gap: var(--Space-0, 0px);
+align-self: stretch;
+justify-content: flex-start;
+}
+
+.FooterContainer {
+display: flex;
+max-width: 1276px;
+height: 376px;
+padding: var(--Space-0, 0px);
+flex-direction: column;
+align-items: center;
+gap: var(--Space-60, 60px);
+align-self: stretch;
+justify-content: flex-start;
+margin: auto;
+}
+
+.FooterContainer2 {
+width: 1276px;
+height: 204px;
+display: flex;
+padding: var(--Space-0, 0px);
+justify-content: center;
+align-items: center;
+gap: var(--Space-12, 12px);
+align-self: stretch;
+border-radius: 60px;
+}
+.FooterContainer2_1 {
+width: 417.33px;
+height: 204px;
+display: flex;
+padding: var(--Space-20, 20px);
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: var(--Space-12, 12px);
+flex: 1 0 0;
+border-radius: 20px;
+background: var(--Content-Background, #ECF3F8);
+margin: auto;
+}
+.FooterContainer2_1_Santa {
+width: var(--Size-80, 80px);
+height: var(--Size-80, 80px);
+position: relative;
+}
+.FooterContainer2_1_Text1 { /* +375 (29) 111-22-33 */
+align-self: stretch;
+color: var(--Dark, #181C29);
+text-align: center;
+font-family: Montserrat,sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 36.48px */
+letter-spacing: 3.84px;
+text-transform: uppercase;
+width: 377.33px;
+word-wrap: break-word
+}
+.FooterContainer2_1_Text2 { /* Call Us */
+align-self: stretch;
+color: var(--Dark, #181C29);
+text-align: center;
+font-family: Montserrat,sans-serif  ;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+width: 377.33px;
+}
+
+.FooterContainer2_2 {
+width: 417.33px;
+height: 204px;
+display: flex;
+padding: var(--Space-20, 20px);
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: var(--Space-12, 12px);
+flex: 1 0 0;
+border-radius: 20px;
+background: var(--Content-Background, #ECF3F8);
+}
+.FooterContainer2_2_Tree {
+width: var(--Size-80, 80px);
+height: var(--Size-80, 80px);
+position: relative;
+}
+.FooterContainer2_2_Text1 { /*Magic forest */
+align-self: stretch;
+color: var(--Dark, #181C29);
+text-align: center;
+font-family: Montserrat,sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 36.48px */
+letter-spacing: 3.84px;
+text-transform: uppercase;
+width: 377.33px;
+word-wrap: break-word
+}
+.FooterContainer2_2_Text2 { /* meet us */
+align-self: stretch;
+color: var(--Dark, #181C29);
+text-align: center;
+font-family: Montserrat,sans-serif  ;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+width: 377.33px;
+}
+.FooterContainer2_3 {
+width: 417.33px;
+height: 204px;
+display: flex;
+padding: var(--Space-20, 20px);
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: var(--Space-12, 12px);
+flex: 1 0 0;
+border-radius: 20px;
+background: var(--Content-Background, #ECF3F8);
+}
+.FooterContainer2_3_Snake {
+width: var(--Size-80, 80px);
+height: var(--Size-80, 80px);
+position: relative;
+}
+.FooterContainer2_3_Text1 { /*gifts@magic.com */
+align-self: stretch;
+color: var(--Dark, #181C29);
+text-align: center;
+font-family: Montserrat,sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 36.48px */
+letter-spacing: 3.84px;
+text-transform: uppercase;
+width: 377.33px;
+word-wrap: break-word
+}
+.FooterContainer2_3_Text2 { /* write us */
+align-self: stretch;
+color: var(--Dark, #181C29);
+text-align: center;
+font-family: Montserrat,sans-serif  ;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 24.32px */
+letter-spacing: 1.28px;
+text-transform: uppercase;
+width: 377.33px;
+}
+
+.FooterContainerSociety {
+display: flex;
+padding: var(--Space-0, 0px);
+flex-direction: column;
+align-items: center;
+gap: var(--Space-12, 12px);
+align-self: stretch;
+width: 1276px;
+height: 112px;
+justify-content: flex-start;
+}
+.FooterSocials {
+display: flex;
+padding: var(--Space-0, 0px);
+justify-content: center;
+align-items: flex-start;
+gap: var(--Space-12, 12px);
+width: 196px;
+height: 40px;
+}
+
+.FooterSocialContainer1, .FooterSocialContainer2, .FooterSocialContainer3, .FooterSocialContainer4 {
+display: flex;
+padding: var(--Space-8, 8px);
+justify-content: center;
+align-items: center;
+gap: var(--Space-0, 0px);
+width: 40px;
+height: 40px;
+}
+
+.FooterSocialImg1 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.FooterSocialImg2 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.FooterSocialImg3 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.FooterSocialImg4 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+.FooterSocialText1 { /* © Copyright 2025, All Rights Reserved */
+color: var(--Dark, #181C29);
+text-align: center;
+font-family: Montserrat,sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 148%; /* 23.68px */
+word-wrap: break-word;
+
+}
+.FooterSocialText2 { /* Made in Rolling Scopes School */
+color: var(--Dark, #181C29);
+text-align: center;
+font-family: Allura,sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 24px */
+letter-spacing: 1.2px;
+word-wrap: break-word;
+}
