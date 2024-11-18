@@ -6,13 +6,12 @@
     <title>Home</title>
     <link href="/christmas-shop/css/styles.css" rel="stylesheet">
     <link rel="icon" href="/christmas-shop/images/footer/X.svg" type="image/x-icon">
-    <link rel="manifest" href="/manifest.json">
 </head>
 <body>
-    <header class="Header">
+    <div class="Header">
         <h1>New Year</h1>
         <div class="Container">
-            <div class="Logo">
+            <a href="home.html" class="Logo">
                 <div class="Snowflake">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <g clip-path="url(#clip0_14036_840)">
@@ -26,11 +25,11 @@
                       </svg>
                     </div>
                     <div class="ActionSmall">the gifts</div>
-            </div>
+            </a>
             <div class="SecondContainer" style="flex: 1 1 0; align-self: stretch; justify-content: flex-end; align-items: center; display: flex">
                 <div class="Items">
                     <div class="Item1">
-                        <div class="ActionSmall">gifts</div>
+                        <a href="#gifts" class="ActionSmall">gifts</a>
                     </div>
                     <div class="Item2">
                         <div class="ActionSmall">about</div>
@@ -44,6 +43,7 @@
                 </div>
             </div>
         </div>
+    </div>
             <!--Hero section-->
             <div class="hero-section">
                 <div class="hero-container">
@@ -123,7 +123,7 @@
             </div>
             <!--Best Gifts Section-->
             <div class="GiftSection">
-                <div class="GiftContainer">
+                <div class="GiftContainer" id="gifts">
                     <div class="GiftContainer2">
                         <div class="GiftCaption">Best Gifts</div>
                         <div class="GiftCaption2">especially for you</div>
@@ -203,10 +203,8 @@
                 </div>
             </div>
         </div>
-    </header>
-
         <!--Footer Section-->
-        <footer class="Footer">
+        <div class="Footer">
             <div class="FooterContainer">
                 <div class="FooterContainer2" id="contacts">
                     <div class="FooterContainer2_1">
@@ -567,7 +565,7 @@
                 <div class="FooterSocialText2">Made in Rolling Scopes School</div>
             </div>
     </div>
-</footer>
+</div>
 <script src="/christmas-shop/js/slider.js"></script>
 <script src="/christmas-shop/js/Timer.js"></script>
 </body>

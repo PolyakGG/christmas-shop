@@ -60,6 +60,7 @@ border-radius: 12px;
 justify-content: flex-start;
 margin-top: 12px;
 margin-bottom: 12px;
+text-decoration: none;
 }
 .Snowflake {
 width: 24px;
@@ -951,7 +952,15 @@ letter-spacing: 1.28px;
 text-transform: uppercase;
 word-wrap: break-word
 }
-
+.GiftCard1:hover, .GiftCard2:hover, .GiftCard3:hover, .GiftCard4:hover {
+transform: scale(1.05);
+}
+.GiftCard1:hover .GiftCard1ImageContainer,
+.GiftCard2:hover .GiftCard2ImageContainer,
+.GiftCard3:hover .GiftCard3ImageContainer,
+.GiftCard4:hover .GiftCard4ImageContainer {
+    opacity: 0.88;
+}
 
 /* CTA SECTION */
 
