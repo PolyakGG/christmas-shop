@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.Items a {
+    text-decoration: none;
+}
 body {
 width: 1440px;
 margin: 0 auto; /* Центрирование страницы */
